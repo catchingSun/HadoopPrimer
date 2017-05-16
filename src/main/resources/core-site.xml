@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xls" href="configuration.xls"?>
+<configuration>
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://localhost:9000</value>
+    </property>
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+    <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce_shuffle</value>
+    </property>
+    <!--conf.setBoolean("mapreduce.app-submission.cross-platform", true);// 配置使用跨平台提交任务
+        conf.set("fs.defaultFS", "hdfs://"+namenode+":8020");// 指定namenode
+        conf.set("mapreduce.framework.name", "yarn"); // 指定使用yarn框架
+        conf.set("yarn.resourcemanager.address", resourcenode+":8032"); // 指定resourcemanager
+        conf.set("yarn.resourcemanager.scheduler.address", schedulernode+":8030");// 指定资源分配器
+        conf.set("mapreduce.jobhistory.address", jobhistorynode+":10020");// 指定historyserver  -->
+</configuration>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MatrixMultiply">
+    <output-path>$PROJECT_DIR$/out/artifacts/MatrixMultiply</output-path>
+    <root id="archive" name="MatrixMultiply.jar">
+      <element id="module-output" name="HadoopPrimer" />
+    </root>
+  </artifact>
+</component>
